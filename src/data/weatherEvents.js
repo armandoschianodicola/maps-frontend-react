@@ -1,18 +1,26 @@
 export const weatherEventsMockData = [
-    {
-      value: "1",
-      label: "Evento 1",
-    },
-    {
-      value: "2",
-      label: "Evento 2",
-    },
-    {
-      value: "3",
-      label: "Evento 3",
-    },
-    {
-        value: "4",
-        label: "Evento 4",
-    },
-  ];
+  {
+    value: "1",
+    label: "Heat",
+    labelName: "heat",
+    bgColor: "#FEF854"
+  },
+  {
+    value: "2",
+    label: "Earthquake",
+    labelName: "earthquake",
+    bgColor: "#E16228"
+  },
+  {
+    value: "3",
+    label: "Flood",
+    labelName: "flood",
+    bgColor: "#00BBd5"
+  },
+  {
+    value: "4",
+    label: "Hurricane",
+    labelName: "hurricane",
+    bgColor: "#ACDBFF"
+  },
+];
